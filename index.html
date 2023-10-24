@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/18388af2ea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <section>
+        <div class="lg:w-full md:w-full sm:w-full flex items-center justify-center h-screen" style="background-color: #2A333C;">
+            <div class="lg:w-1/4 md:w-2/4 sm:w-2/5 w-4/5 lg:h-96 md:h-96 rounded-lg p-7" style="background-color: #323C48;">
+                <div class="flex flex-col">
+                    <!-- logo & bank name -->
+                    <h1 class="text-2xl text-white text-center text-slate-200 font-semibold"><i class="me-3 fa-solid fa-building-columns fa-beat text-slate-200"></i>Islami Bank</h1>
+                    <!-- login text  -->
+                    <p class="text-center text-1xl mt-10 mb-3 text-slate-400">Log in</p>
+                    <!-- email feild -->
+                    <input class="w-full p-2 mb-3 rounded-lg text-white" style="background-color: #3A4654;"  type="email" name="" placeholder="Enter email" id="" required>
+                    <!-- password feild  -->
+                    <input class="lg:w-full p-2 rounded-lg text-white" style="background-color: #3A4654;" type="password" name="" placeholder="Enter password" id="" required>
+                    <!-- checkbox feild -->
+                    <div>
+                        <input class="text-left mt-3 me-2" type="checkbox" name="checkbox" id="" ><label class="text-slate-400" for="checkbox">Remember me</label>
+                    </div>
+                    <!-- button -->
+                    <button class="bg-cyan-500 py-2 w-full rounded text-slate-200 font-semibold mt-8">Log in</button>
+                </div>
+            </div>		
+        </div>
+    </section>
+
+
+
+    <script src="./js/login.js"></script>
+</body>
+</html>
